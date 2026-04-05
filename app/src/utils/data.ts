@@ -1,7 +1,7 @@
 import type { Exam, ExamIndex } from '../types';
 
 // 개발 환경에서는 로컬 data 폴더, 배포 시 GitHub raw URL 사용
-const DATA_BASE_URL = import.meta.env.VITE_DATA_URL || '/data';
+const DATA_BASE_URL = import.meta.env.VITE_DATA_URL || `${import.meta.env.BASE_URL}data`;
 
 export async function fetchExamIndex(): Promise<ExamIndex> {
   const res = await fetch(`${DATA_BASE_URL}/index.json`);
