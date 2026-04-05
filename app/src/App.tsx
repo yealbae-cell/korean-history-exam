@@ -29,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/korean-history-exam">
       <GlobalStyle />
       <Header />
       <Routes>

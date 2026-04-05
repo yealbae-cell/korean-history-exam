@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
+  base: '/korean-history-exam/',
   plugins: [react()],
   server: {
     port: 3000,
