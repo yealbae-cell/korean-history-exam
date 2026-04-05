@@ -67,6 +67,31 @@ messenger/
         └── styles.py       # KakaoTalk 스타일 시트
 ```
 
+## Windows 설치 파일 빌드
+
+### 방법 1: 포터블 exe만 생성 (간편)
+```batch
+build_portable.bat
+```
+`dist/LAN_Messenger.exe` 파일 하나만 배포하면 됩니다.
+
+### 방법 2: 설치 파일(.exe installer) 생성
+1. [Inno Setup 6](https://jrsoftware.org/isdl.php) 설치
+2. `build.bat` 실행
+
+생성되는 파일:
+- `dist/LAN_Messenger.exe` - 클라이언트 (서버 내장)
+- `dist/LAN_Messenger_Server.exe` - 서버 전용
+- `dist/installer/LAN_Messenger_Setup_v1.0.0.exe` - 설치 파일
+
+설치 파일에는 다음이 포함됩니다:
+- 시작 메뉴 바로가기
+- 바탕화면 바로가기 (선택)
+- Windows 시작 시 자동 실행 (선택)
+- Windows 방화벽 자동 설정
+- 프로그램 제거 지원
+
 ## Windows 방화벽 설정
 처음 실행 시 Windows 방화벽에서 Python 허용 여부를 묻는 팝업이 나올 수 있습니다.
 "허용"을 선택해야 LAN 내 통신이 가능합니다.
+설치 파일로 설치한 경우 방화벽이 자동으로 설정됩니다.
