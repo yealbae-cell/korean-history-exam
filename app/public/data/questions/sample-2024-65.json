@@ -1,0 +1,57 @@
+{
+  "examId": "2024-65",
+  "year": 2024,
+  "round": 65,
+  "date": "2024-06-01",
+  "totalQuestions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "question": "(가)에 들어갈 내용으로 옳은 것은?",
+      "description": "다음 대화에서 밑줄 친 '이 시대'의 생활 모습으로 옳은 것은?",
+      "image": null,
+      "choices": [
+        { "number": 1, "text": "주먹도끼를 만들어 사용하였다." },
+        { "number": 2, "text": "빗살무늬 토기에 음식을 저장하였다." },
+        { "number": 3, "text": "반달 돌칼로 벼이삭을 잘랐다." },
+        { "number": 4, "text": "비파형 동검을 제작하였다." },
+        { "number": 5, "text": "철제 농기구로 농사를 지었다." }
+      ],
+      "answer": 2,
+      "category": "선사시대",
+      "era": "신석기"
+    },
+    {
+      "id": 2,
+      "question": "밑줄 친 '이 나라'에 대한 설명으로 옳은 것은?",
+      "description": null,
+      "image": null,
+      "choices": [
+        { "number": 1, "text": "골품제를 운영하였다." },
+        { "number": 2, "text": "영고라는 제천 행사를 열었다." },
+        { "number": 3, "text": "22담로에 왕족을 파견하였다." },
+        { "number": 4, "text": "화백 회의에서 국가 중대사를 결정하였다." },
+        { "number": 5, "text": "제가 회의에서 범죄자를 처벌하였다." }
+      ],
+      "answer": 5,
+      "category": "고대사",
+      "era": "초기국가"
+    },
+    {
+      "id": 3,
+      "question": "다음 자료에 해당하는 문화유산으로 옳은 것은?",
+      "description": null,
+      "image": null,
+      "choices": [
+        { "number": 1, "text": "첨성대" },
+        { "number": 2, "text": "무령왕릉" },
+        { "number": 3, "text": "석굴암" },
+        { "number": 4, "text": "불국사 3층 석탑" },
+        { "number": 5, "text": "미륵사지 석탑" }
+      ],
+      "answer": 3,
+      "category": "고대사",
+      "era": "통일신라"
+    }
+  ]
+}
