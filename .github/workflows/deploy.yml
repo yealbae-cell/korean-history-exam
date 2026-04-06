@@ -32,6 +32,7 @@ jobs:
           mkdir -p app/public/data
           cp data/index.json app/public/data/
           cp -r data/questions app/public/data/
+          if [ -d data/images ]; then cp -r data/images app/public/data/; fi
 
       - name: Build
         working-directory: app
