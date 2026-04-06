@@ -7,6 +7,14 @@
       "date": "2024-06-01",
       "totalQuestions": 50,
       "file": "questions/sample-2024-65.json"
+    },
+    {
+      "examId": "2026-77",
+      "year": 2026,
+      "round": 77,
+      "date": "2026-02-07",
+      "totalQuestions": 4,
+      "file": "questions/2026-77.json"
     }
   ],
   "categories": ["선사시대", "고대사", "고려시대", "조선전기", "조선후기", "근대사", "일제강점기", "현대사"],
