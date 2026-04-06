@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import type { Question } from '../types';
 
+const DATA_BASE_URL = import.meta.env.VITE_DATA_URL || `${import.meta.env.BASE_URL}data`;
+
 interface Props {
   question: Question;
   total: number;
@@ -25,7 +27,7 @@ export default function QuestionCard({
       {question.description && (
         <Description>{question.description}</Description>
       )}
-      {question.image && <QuestionImage src={question.image} alt="문제 이미지" />}
+      {question.image && <QuestionImage src={`${DATA_BASE_URL}/${question.image}`} alt="문제 이미지" />}
       <ChoiceList>
         {question.choices.map((choice) => {
           const isSelected = selectedAnswer === choice.number;
