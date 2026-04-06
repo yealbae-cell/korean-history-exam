@@ -96,7 +96,7 @@ const Description = styled.p`
 `;
 
 const QuestionImage = styled.img`
-  max-width: 100%;
+  width: 100%;
   border-radius: 8px;
   margin-bottom: 16px;
 `;
